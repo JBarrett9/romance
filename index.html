@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="control">
+        <label>Song:</label>
+        <select name="song" id="song">
+            <option value=0>Hotline Bling</option>
+            <option value=1>Firework</option>
+            <option value=2>What Does the Fox Say</option>
+        </select>
+        <label># of Lines: </label>
+        <input class="num-input" min="1" type="number" name="" id="lines">
+        <label># of Words per Line: </label>
+        <input class="num-input" min="1" type="number" name="" id="words">
+        <button id="submit" type="button" onclick="handleSubmit()">Generate</button>
+    </form>
+    <div class="frame">
+        <h2 id="title"></h2>
+        <p id="poem"></p>
+    </div>
+    <script src="romance.js"></script>
+</body>
+</html>

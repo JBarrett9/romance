@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border-radius: .8rem;
+    cursor: pointer;
+    font-size: 18px;
+    padding: .5rem;
+}
+
+button:hover {
+    background-color: #888;
+    color: #FFF;
+}
+
+#control {
+    background-color: #444;
+    border-bottom: .3rem outset #555;
+    color: #FFF;
+    align-items: center;
+    display: flex;
+    padding: 1em;
+}
+
+#control label{
+    font-size: 18px;
+    margin-right: 1rem;   
+}
+
+#control input, select {
+    font-size: 18px;
+    margin-right: 4rem;
+}
+
+.frame {
+    background-color: antiquewhite;
+    border: 1rem outset goldenrod;
+    box-shadow: .25rem .5rem .5rem #777;
+    margin: auto;
+    margin-top: 10rem;
+    width: 60rem;
+    height: auto;
+    padding-top: 0;
+    text-align: center;
+}
+
+.num-input {
+    width: 5rem;
+}
+
+#poem {
+    margin-bottom: 4rem;
+    margin-top: -3rem;
+    white-space: pre;
+}
+
+#title {
+    letter-spacing: .15em;
+    text-transform: capitalize;
+}
